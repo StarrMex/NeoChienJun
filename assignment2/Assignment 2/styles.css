@@ -1,0 +1,54 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Add in your own customisations */
+header
+    {
+        background-color: #93d0f4;
+    }
+h1
+    {
+        color: white;
+        text-align:center;
+    }
+img
+    {
+        display: block;
+        margin: auto;
+    }
+table, th, td
+    {
+        border-collapse: collapse;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ddd;
+        padding: 10px;
+        text-align: left;
+    }
+a
+    {
+        color: #0079c1;
+    }
+footer
+    {
+        background-color: #93d0f4;
+        text-align: center;
+        color: white;
+        padding: 10px;
+    }
+section
+    {
+        padding: 10px;
+    }
