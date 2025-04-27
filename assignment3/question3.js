@@ -6,3 +6,6 @@ const disneyData = {
 };
 
 // Write your code below
+// open - high + low - close
+
+console.log((parseFloat(disneyData['open'])-parseFloat(disneyData['high'])+parseFloat(disneyData['low'])-parseFloat(disneyData['close'])).toFixed(2));

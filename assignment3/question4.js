@@ -6,3 +6,5 @@ const disneyData = {
 };
 
 // Write your code below
+Object.assign(disneyData, { volume: "1512311" });
+console.log(disneyData); 
